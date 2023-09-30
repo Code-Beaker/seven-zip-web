@@ -39,10 +39,10 @@ const GridItem = ({ title, text }) => {
 const DownloadButton = ({ source }) => {
   return (
     <a
-      className="bg-blue-400 my-3 font-medium inline-flex items-center gap-2 px-5 py-3 rounded-full hover:bg-blue-500 transition-tranform active:blue-600 active:scale-95"
+      className="bg-slate-300 my-3 font-medium inline-flex items-center gap-2 px-5 py-3 rounded-full hover:bg-slate-400 transition-tranform active:bg-slate-500 active:scale-95"
       href={source}
     >
-      Download{" "}
+      Download
       <span>
         <BsDownload />
       </span>
