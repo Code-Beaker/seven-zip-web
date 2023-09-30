@@ -49,50 +49,9 @@ const Downloads = ({ link }) => {
           Download now for free. For any computer. The source is available on
           GitHub.
         </p>
-        <DownloadGrid />
       </section>
     </>
   );
-};
-
-const DownloadGrid = () => {
-  return (
-    <div className="grid grid-cols-3 bg-white">
-      <DownloadItem title={Windows.title} text={Windows.text} />
-      <DownloadItem title={Mac.title} text={Mac.text} />
-      <DownloadItem title={Linux.title} text={Linux.text} />
-    </div>
-  );
-};
-
-const Windows = {
-  title: "Windows",
-  text: "Download for Microsoft Windows",
-  format: ".exe",
-};
-
-const Mac = {
-  title: "Windows",
-  text: "Download for Microsoft Windows",
-  format: ".exe",
-};
-
-const Linux = {
-  title: "Windows",
-  text: "Download for Microsoft Windows",
-  format: ".exe",
-};
-
-const DownloadItem = ({ title, text }) => {
-  <div className="bg-slate-100">
-    <h1>{title}</h1>
-    <p>{text}</p>
-    <DownloadButton text={"Download"} />
-  </div>;
-};
-
-const DownloadButton = ({ text, source }) => {
-  return <a href={link}>{text}</a>;
 };
 
 export default Content;
