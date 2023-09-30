@@ -5,6 +5,7 @@ const Content = () => {
   return (
     <main>
       <About link={"about"} />
+      <Downloads link={"download"} />
     </main>
   );
 };
@@ -34,6 +35,18 @@ const ViewSourceButton = () => {
         <BsGithub />
       </span>
     </a>
+  );
+};
+
+const Downloads = ({ link }) => {
+  return (
+    <section className="text-center bg-slate-800 py-24 px-12" id={link}>
+      <h1 className="text-5xl my-3 font-bold text-slate-100">Download 7-zip</h1>
+      <p className="text-2xl font-medium text-slate-400">
+        Download now for free. For any computer. The source is available on
+        GitHub.
+      </p>
+    </section>
   );
 };
 
