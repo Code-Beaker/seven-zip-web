@@ -1,4 +1,5 @@
 import React from "react";
+import DownloadSection from "./DownloadSection";
 import { BsGithub } from "react-icons/bs";
 
 const Content = () => {
@@ -49,6 +50,7 @@ const Downloads = ({ link }) => {
           Download now for free. For any computer. The source is available on
           GitHub.
         </p>
+        <DownloadSection />
       </section>
     </>
   );
