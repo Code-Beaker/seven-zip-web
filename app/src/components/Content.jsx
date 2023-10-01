@@ -1,12 +1,14 @@
 import React from "react";
 import DownloadSection from "./DownloadSection";
 import { BsGithub } from "react-icons/bs";
+import Features from "./Features";
 
 const Content = () => {
   return (
     <main>
       <About link={"about"} />
       <Downloads link={"download"} />
+      <Features link={"features"} />
     </main>
   );
 };
@@ -45,7 +47,7 @@ const Downloads = ({ link }) => {
       <h1 className="text-slate-100 text-5xl my-3 font-bold">
         Download now for free.
       </h1>
-      <p className="text-slate-400 font-medium text-xl">
+      <p className="text-slate-400 font-medium text-2xl">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nemo
         quas quaerat praesentium alias et eaque sint a?
       </p>
