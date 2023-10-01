@@ -37,4 +37,16 @@ const ViewSourceButton = () => {
   );
 };
 
+const Downloads = () => {
+  return (
+    <section>
+      <h1>Download now for free.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nemo
+        quas quaerat praesentium alias et eaque sint a?
+      </p>
+    </section>
+  );
+};
+
 export default Content;
