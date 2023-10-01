@@ -1,10 +1,12 @@
 import React from "react";
+import DownloadSection from "./DownloadSection";
 import { BsGithub } from "react-icons/bs";
 
 const Content = () => {
   return (
     <main>
       <About link={"about"} />
+      <Downloads link={"download"} />
     </main>
   );
 };
@@ -34,6 +36,21 @@ const ViewSourceButton = () => {
         <BsGithub />
       </span>
     </a>
+  );
+};
+
+const Downloads = ({ link }) => {
+  return (
+    <section className="bg-slate-800 py-24 px-12 text-center" id={link}>
+      <h1 className="text-slate-100 text-5xl my-3 font-bold">
+        Download now for free.
+      </h1>
+      <p className="text-slate-400 font-medium text-xl">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nemo
+        quas quaerat praesentium alias et eaque sint a?
+      </p>
+      <DownloadSection />
+    </section>
   );
 };
 
