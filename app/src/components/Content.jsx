@@ -1,12 +1,14 @@
 import React from "react";
 import DownloadSection from "./DownloadSection";
 import { BsGithub } from "react-icons/bs";
+import Features from "./Features";
 
 const Content = () => {
   return (
     <main>
       <About link={"about"} />
       <Downloads link={"download"} />
+      <Features link={"features"} />
     </main>
   );
 };
