@@ -14,7 +14,7 @@ const NavBar = () => {
           <NavLink text={"Download"} link={"#download"} />
         </li>
         <li>
-          <NavLink text={"Features"} link={"#"} />
+          <NavLink text={"Features"} link={"#features"} />
         </li>
         <li>
           <NavLink text={"Support"} link={"#"} />
