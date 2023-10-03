@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="p-4 sticky top-0 bg-slate-50 flex justify-center sm:justify-around items-center">
+    <nav className="p-4 sticky top-0 bg-slate-50 flex justify-center sm:justify-around items-center z-10">
       <a href="index.html" className="text-3xl text-blue-950 font-bold ">
         7-zip
       </a>
