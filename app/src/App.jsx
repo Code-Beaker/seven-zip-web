@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import TopBanner from "./components/TopBanner";
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <Content />
+      <Footer />
     </>
   );
 };
