@@ -15,8 +15,10 @@ const Content = () => {
 
 const About = ({ link }) => {
   return (
-    <section className="px-12 sm:py-24 text-center" id={link}>
-      <h1 className="text-5xl my-3 font-bold text-slate-800">What is 7-zip?</h1>
+    <section className="px-12 py-12 sm:py-24 text-center" id={link}>
+      <h1 className="text-4xl sm:text-5xl my-3 font-bold text-slate-800">
+        What is 7-zip?
+      </h1>
       <p className="text-2xl font-medium text-slate-600">
         A <span className="font-bold">Free</span> and{" "}
         <span className="font-bold">Open-source</span> archiver tool with high
@@ -44,10 +46,10 @@ const ViewSourceButton = () => {
 const Downloads = ({ link }) => {
   return (
     <section className="bg-slate-800 py-24 px-12 text-center" id={link}>
-      <h1 className="text-slate-100 text-5xl my-3 font-bold">
+      <h1 className="text-slate-100 text-3xl sm:text-5xl my-3 font-bold">
         Download now for free.
       </h1>
-      <p className="text-slate-400 font-medium text-2xl">
+      <p className="text-slate-400 font-medium text-xl sm:text-2xl">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nemo
         quas quaerat praesentium alias et eaque sint a?
       </p>

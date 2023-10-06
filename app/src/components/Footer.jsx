@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-slate-800 text-center py-24 px-12">
-      <p className="text-medium text-xl text-slate-100">
+      <p className="text-medium text-lg sm:text-xl text-slate-100">
         Copyright {CurrentYear}, All rights reserved.{" "}
       </p>
     </footer>

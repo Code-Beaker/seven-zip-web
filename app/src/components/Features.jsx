@@ -2,9 +2,11 @@ import React from "react";
 
 const Features = ({ link }) => {
   return (
-    <section id={link} className="px-12 sm:py-24 text-center">
-      <h1 className="text-5xl my-3 font-bold text-slate-800">Features</h1>
-      <p className="text-2xl font-medium text-slate-600">
+    <section id={link} className="px-12 py-12 sm:py-24 text-center">
+      <h1 className="text-3xl sm:text-5xl my-3 font-bold text-slate-800">
+        Features
+      </h1>
+      <p className="text-xl sm:text-2xl font-medium text-slate-600">
         Explore the features of 7-zip. These features make it unique and useful.
       </p>
       <FeaturesGrid />
@@ -14,7 +16,7 @@ const Features = ({ link }) => {
 
 const FeaturesGrid = () => {
   return (
-    <div className="grid grid-cols-3 gap-3 p-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 p-6">
       <Feature
         title={"High compression rate"}
         text={
@@ -54,8 +56,10 @@ const Feature = (props) => {
 
   return (
     <div className="bg-slate-300 p-6 rounded transition-opacity opacity-50 hover:opacity-100">
-      <h1 className="font-bold text-2xl text-slate-800">{title}</h1>
-      <p className="font-medium text-lg text-left text-slate-600">{text}</p>
+      <h1 className="font-bold text-xl sm:text-2xl text-slate-800">{title}</h1>
+      <p className="font-medium text-md sm:text-lg text-left text-slate-600">
+        {text}
+      </p>
     </div>
   );
 };
