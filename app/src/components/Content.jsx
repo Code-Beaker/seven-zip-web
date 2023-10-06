@@ -50,8 +50,9 @@ const Downloads = ({ link }) => {
         Download now for free.
       </h1>
       <p className="text-slate-400 font-medium text-xl sm:text-2xl">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nemo
-        quas quaerat praesentium alias et eaque sint a?
+        You can use 7-Zip on any computer, including a computer in a commercial
+        organization. You don't need to register or pay for 7-Zip. Download
+        7-zip for your operating system from below.
       </p>
       <DownloadSection />
     </section>

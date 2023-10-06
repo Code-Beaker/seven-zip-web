@@ -1,10 +1,11 @@
 import React from "react";
+import BrandLogo from "../assets/BrandLogo.png";
 
 const NavBar = () => {
   return (
     <nav className="p-4 sticky top-0 bg-slate-50 flex justify-center sm:justify-around items-center z-10">
       <a href="index.html" className="text-3xl text-blue-950 font-bold ">
-        7-zip
+        <img src={BrandLogo} alt="Z-zip logo icon" />
       </a>
       <ul className="flex">
         <li>
