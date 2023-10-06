@@ -1,0 +1,20 @@
+{
+  "windows": {
+    "title": "Microsoft Windows",
+    "description": "Download for Microsoft Windows.",
+    "format": ".exe",
+    "source": "#"
+  },
+  "macos": {
+    "title": "Apple MacOS",
+    "description": "Download for Apple MacOS.",
+    "format": ".dmg",
+    "source": "#"
+  },
+  "linux": {
+    "title": "Linux",
+    "description": "Download for Ubuntu/Debian systems.",
+    "format": ".deb",
+    "source": "#"
+  }
+}
